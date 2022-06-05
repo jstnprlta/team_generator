@@ -43,7 +43,7 @@ inquirer.prompt([
  }
 ])
 
-//Function for managerQuestion Responses
+// managerQuestion Responses
 .then(function (response) {
 
     const manager = new Manager(
@@ -62,7 +62,7 @@ inquirer.prompt([
 
 managerQuestions();
 
-//Function for Employee Prompt
+//Function for Employee 
 function newEmployee() {
     //Add Engineer or Intern
   inquirer.prompt([
@@ -90,7 +90,7 @@ function newEmployee() {
     }
 
 
-    //Function for if Engineer is choosen
+    //Function for Engineer
     function engineerQuestions() {
         inquirer.prompt([
                 {
@@ -136,7 +136,7 @@ function newEmployee() {
     }
 
 
-    //Function for if Intern is choosen
+    //Functions
     function internQuestions() {
         inquirer
             .prompt
@@ -184,7 +184,7 @@ function newEmployee() {
     }
     
 
-    //HTML Base Code
+    //HTML 
     function newHtml(){
         let cardArray = []
         let html = `
