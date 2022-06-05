@@ -1,7 +1,7 @@
 const Employee = require("../lib/Employee");
 
 describe("Employee", () => {
-    it("should return the name of the employee", () => {
+    it("should return the name of the employee", () =>{
         expect(new Employee("First Last", 1, "email@email.com").getName()).toBe("First Last");
     });
 
